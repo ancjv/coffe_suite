@@ -130,3 +130,13 @@ img{
         gap: 2rem;
     }
 }
+
+/* header 2 */
+
+@media (min-width:768px) {
+    .content-main{
+        display: grid;
+        grid-template-columns: 2fr 1fr;
+        column-gap: 4rem;
+    }
+}
