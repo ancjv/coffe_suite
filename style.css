@@ -81,3 +81,52 @@ img{
     background-repeat: no-repeat;
     background-position: center center;
 }
+
+.header-text{
+    text-align: center;
+    color: #fff;
+    margin-top: 5rem;
+}
+
+@media (min-width:768px) {
+    .header-text{
+        margin-top: 15rem;
+    }
+}
+
+
+/*  logo*/
+
+@media (min-width: 768px) {   
+    .barra{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+}
+
+.logo{
+    color: #fff;
+}
+
+.logo-name{
+    font-weight: 300;
+}
+
+.logo-bold{
+    font-weight: 700;
+}
+
+.nav-link{
+    display: block;
+    text-align: center;
+    font-size: 1.8rem;
+    color: #fff;
+}
+
+@media (min-width:768px) {
+    .nav-link{
+        display: flex;
+        gap: 2rem;
+    }
+}
