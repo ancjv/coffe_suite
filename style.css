@@ -38,6 +38,7 @@ a{
 
 h1, h2, h3, h4{
     font-family: 'PT Sans', sans-serif;
+    line-height: 2;
 }
 
 h1{
@@ -166,11 +167,44 @@ img{
 @media (min-width:768px) {
     .botton{
         display: inline-block;
-       
+        
     }
 }
 
-
 .botton--primario{
     background-color: #000;
+}
+
+.botton--secundario{
+    background-color: #784D3C;
+}
+
+.cursos{
+    list-style: none;
+}
+
+.widget-curso__label{
+    font-family: 'PT SANS', sans-serif;
+    font-weight: bold;
+
+}
+
+.widget-curso__info{
+    font-weight: normal;
+
+}
+
+.widget-cursos{
+    border-bottom: 1px solid #e1e1e1;
+    margin-bottom: 2rem;
+}
+
+.widget-cursos:last-of-type{
+    border: none;
+    margin-bottom: 0;
+}
+
+.widget-curso__label,
+.widget-curso__info{
+    font-size: 2rem;
 }
