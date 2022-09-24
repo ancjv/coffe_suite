@@ -3,7 +3,6 @@
 :root{
     --fuenteheading: 'PT SANS', sans-serif;
     --fuenteparrafos: 'Open Sans', sans-serif;
-
     --primario: #784D3C;
     --blanco: #ffff;
     --negro: #000000;
@@ -77,7 +76,7 @@ img{
 
 .header{
     background-image: url(../img/banner.jpg);
-    height: 60rem;
+    height: 90rem;
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center center;
@@ -97,6 +96,10 @@ img{
 
 
 /*  logo*/
+
+.barra{
+    padding-top: 4rem;
+}
 
 @media (min-width: 768px) {   
     .barra{
@@ -207,4 +210,11 @@ img{
 .widget-curso__label,
 .widget-curso__info{
     font-size: 2rem;
+}
+
+.footer{
+    background-color: #000;
+    padding-top: 3rem 0;
+    margin-top: 4rem;
+    padding-bottom: 3rem;
 }
